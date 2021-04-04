@@ -86,7 +86,7 @@ std::string GoThroughFile(const std::string& path)
 	if (ifAmount)
 		output += tabs + "if's: " + std::to_string(ifAmount) + "\n";
 	if (commentNum)
-		output += tabs + "if's: " + std::to_string(commentNum) + "\n";
+		output += tabs + "comments: " + std::to_string(commentNum) + "\n";
 
 	tabs = tabs.substr(0, tabs.size() - 1);
 
