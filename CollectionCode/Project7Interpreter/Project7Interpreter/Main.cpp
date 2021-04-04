@@ -5,12 +5,18 @@
 #include <vector>
 #include <string>
 #include <filesystem>
+//#include <fileapi.h>
+//#include <Windows.h>
 
 
 #define TEST 1
 
 
 std::string tabs = "";
+size_t switchCaseBrace = 0;
+size_t cases = 0;
+size_t switchLine = 0;
+bool inSwitch = false;
 
 
 std::string GoThroughFile(const std::string& path)
@@ -24,7 +30,9 @@ std::string GoThroughFile(const std::string& path)
 	
 	std::ifstream fileText(path);
 
-	size_t ifAmount = 0, caseAmount = 0, commentNum = 0, lineNum = 1;
+	size_t ifAmount = 0, commentNum = 0, lineNum = 1;
+
+	tabs += "\t";
 
 	/// check each line of the file
 	/// and skip all empty lines
@@ -45,9 +53,42 @@ std::string GoThroughFile(const std::string& path)
 				++commentNum;
 			if (line[0] == 'i' && line[1] == 'f')
 				++ifAmount;
-
+			if (inSwitch)
+			{
+				std::string::size_type pos = 0;
+				std::string target = "case ";
+				while ((pos = line.find(target, pos)) != std::string::npos)
+				{
+					++cases;
+					pos += target.length();
+				}
+				pos = 0;
+				while (pos != line.size())
+				{
+					switchCaseBrace += (line[pos] == '{' ? 1 : (line[pos] == '}' ? -1 : 0) );
+					pos++;
+				}
+				if (!switchCaseBrace)
+				{
+					inSwitch = false;
+					output += tabs + "switch line " + std::to_string(switchLine) + ": cases " + std::to_string(cases) + "\n";
+					cases = 0;
+				}
+			}
+			if (line.find("switch") != std::string::npos)
+			{
+				switchLine = lineNum;
+				inSwitch = true;
+			}
 		}
 	}
+
+	if (ifAmount)
+		output += tabs + "if's: " + std::to_string(ifAmount) + "\n";
+	if (commentNum)
+		output += tabs + "if's: " + std::to_string(commentNum) + "\n";
+
+	tabs = tabs.substr(0, tabs.size() - 1);
 
 	return output;
 }
@@ -68,9 +109,12 @@ std::string GoThroughDirectory(const std::string& path)
 		//std::cout << "current path: " << entryPath << std::endl;
 		if (entryPath.find(".") == std::string::npos)	/// => this is a directory
 		{
-			tabs += "\t";
-			output += GoThroughDirectory(entryPath);
-			tabs = tabs.substr(0, tabs.size() - 1);
+			if (entryPath.find("Dockerfile") == std::string::npos && entryPath.find("LICENSE") == std::string::npos)
+			{
+				tabs += "\t";
+				output += GoThroughDirectory(entryPath);
+				tabs = tabs.substr(0, tabs.size() - 1);
+			}
 		}
 		/// if file is .h or .c/.cpp => go through it and collect the information about it
 		else if (!(entryPath.find(".h") == std::string::npos
@@ -95,7 +139,7 @@ std::string GoThroughDirectory(const std::string& path)
 
 int main()
 {
-	std::string output = GoThroughDirectory("test");
+	std::string output = GoThroughDirectory("CodeBases/VVVVVV-master/VVVVVV-master");
 	std::cout << "\n\n\n" << output << std::endl;
 
 	//std::system("pause");
