@@ -135,6 +135,69 @@
     <ClCompile Include="src\XMLUtils.cpp">
       <Filter>VVVVsrc</Filter>
     </ClCompile>
+    <ClCompile Include="..\third_party\source\lodepng.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_archiver_7z.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_archiver_dir.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_archiver_grp.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_archiver_hog.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_archiver_iso9660.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_archiver_mvl.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_archiver_qpak.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_archiver_slb.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_archiver_unpacked.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_archiver_vdf.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_archiver_wad.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_archiver_zip.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_byteorder.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_platform_haiku.cpp">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_platform_posix.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_platform_unix.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_platform_windows.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\physfs_unicode.c">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\source\tinyxml2.cpp">
+      <Filter>ThirdParty</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\BinaryBlob.h">
@@ -256,6 +319,36 @@
     </ClInclude>
     <ClInclude Include="src\XMLUtils.h">
       <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\include\core.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\include\lodepng.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\include\physfs.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\include\physfs_casefolding.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\include\physfs_internal.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\include\physfs_lzmasdk.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\include\physfs_miniz.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\include\physfs_platforms.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\include\tinyxml2.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\include\unchecked.h">
+      <Filter>ThirdParty</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

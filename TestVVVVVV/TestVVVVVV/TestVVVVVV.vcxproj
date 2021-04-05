@@ -19,6 +19,27 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\third_party\source\lodepng.c" />
+    <ClCompile Include="..\third_party\source\physfs.c" />
+    <ClCompile Include="..\third_party\source\physfs_archiver_7z.c" />
+    <ClCompile Include="..\third_party\source\physfs_archiver_dir.c" />
+    <ClCompile Include="..\third_party\source\physfs_archiver_grp.c" />
+    <ClCompile Include="..\third_party\source\physfs_archiver_hog.c" />
+    <ClCompile Include="..\third_party\source\physfs_archiver_iso9660.c" />
+    <ClCompile Include="..\third_party\source\physfs_archiver_mvl.c" />
+    <ClCompile Include="..\third_party\source\physfs_archiver_qpak.c" />
+    <ClCompile Include="..\third_party\source\physfs_archiver_slb.c" />
+    <ClCompile Include="..\third_party\source\physfs_archiver_unpacked.c" />
+    <ClCompile Include="..\third_party\source\physfs_archiver_vdf.c" />
+    <ClCompile Include="..\third_party\source\physfs_archiver_wad.c" />
+    <ClCompile Include="..\third_party\source\physfs_archiver_zip.c" />
+    <ClCompile Include="..\third_party\source\physfs_byteorder.c" />
+    <ClCompile Include="..\third_party\source\physfs_platform_haiku.cpp" />
+    <ClCompile Include="..\third_party\source\physfs_platform_posix.c" />
+    <ClCompile Include="..\third_party\source\physfs_platform_unix.c" />
+    <ClCompile Include="..\third_party\source\physfs_platform_windows.c" />
+    <ClCompile Include="..\third_party\source\physfs_unicode.c" />
+    <ClCompile Include="..\third_party\source\tinyxml2.cpp" />
     <ClCompile Include="src\BinaryBlob.cpp" />
     <ClCompile Include="src\BlockV.cpp" />
     <ClCompile Include="src\DeferCallbacks.c" />
@@ -59,6 +80,16 @@
     <ClCompile Include="src\XMLUtils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\third_party\include\core.h" />
+    <ClInclude Include="..\third_party\include\lodepng.h" />
+    <ClInclude Include="..\third_party\include\physfs.h" />
+    <ClInclude Include="..\third_party\include\physfs_casefolding.h" />
+    <ClInclude Include="..\third_party\include\physfs_internal.h" />
+    <ClInclude Include="..\third_party\include\physfs_lzmasdk.h" />
+    <ClInclude Include="..\third_party\include\physfs_miniz.h" />
+    <ClInclude Include="..\third_party\include\physfs_platforms.h" />
+    <ClInclude Include="..\third_party\include\tinyxml2.h" />
+    <ClInclude Include="..\third_party\include\unchecked.h" />
     <ClInclude Include="src\BinaryBlob.h" />
     <ClInclude Include="src\BlockV.h" />
     <ClInclude Include="src\Credits.h" />
