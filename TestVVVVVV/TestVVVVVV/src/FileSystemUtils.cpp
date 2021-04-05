@@ -6,6 +6,7 @@
 #include <string>
 #include <tinyxml2.h>
 #include <vector>
+#include <stdlib.h>
 
 #include "Exit.h"
 #include "Graphics.h"
@@ -623,12 +624,14 @@ static void PLATFORM_migrateSaveData(char* output)
 	WIN32_FIND_DATA findHandle;
 	HANDLE hFind = NULL;
 	char fileSearch[MAX_PATH];
+	wchar_t wideFileSearch[MAX_PATH]; // added to do make it work
 
 	/* Same place, different layout. */
 	SDL_strlcpy(oldDirectory, output, sizeof(oldDirectory));
 
 	SDL_snprintf(fileSearch, sizeof(fileSearch), "%s\\*.vvvvvv", oldDirectory);
-	hFind = FindFirstFile(fileSearch, &findHandle);
+	mbstowcs(wideFileSearch, fileSearch, MAX_PATH); // added to make it work
+	hFind = FindFirstFile(wideFileSearch, &findHandle);
 	if (hFind == INVALID_HANDLE_VALUE)
 	{
 		printf("Could not find directory %s\n", oldDirectory);
