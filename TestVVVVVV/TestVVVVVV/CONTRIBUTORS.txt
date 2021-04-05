@@ -1,0 +1,31 @@
+Contributors
+------------
+
+(Ordered alphabetically by last name.)
+
+* Matt "Fußmatte" Aaldenberg
+* AlexApps99 (@AlexApps99)
+* AllyTally (@AllyTally)
+* Christoph Böhmwalder (@chrboe)
+* Charlie Bruce (@charliebruce)
+* Brian Callahan (@ibara)
+* Dav999 (Dav999-v)
+* Allison Fleischer (AllisonFleischer)
+* Daniel Lee (@ddm999)
+* Fredrik Ljungdahl (@FredrIQ)
+* Nichole Mattera (@NicholeMattera)
+* Matt Penny (@mwpenny)
+* MAO3J1m0Op (@MAO3J1m0Op)
+* Tynan Richards (@tzann)
+* Elliott Saltar (@eboyblue3)
+* Marvin Scholz (@ePirat)
+* Keith Stellyes (@keithstellyes)
+* Elijah Stone
+* Thomas Sänger (@HorayNarea)
+* Info Teddy (@InfoTeddy)
+* Pierre-Alain TORET (@daftaupe)
+* leo60228 (@leo60228)
+* Emmanuel Vadot (@evadot)
+* Rémi Verschelde (@akien-mga)
+* viri (viri.me)
+* Wouter (Xesxen)

@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="VVVVsrc">
+      <UniqueIdentifier>{ff9cd903-47a9-4904-ae19-834c5590fa77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{9e840dd1-ecd2-42c4-afb4-9dc3227ac201}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\BinaryBlob.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BlockV.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DeferCallbacks.c">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ent.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Entity.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FileSystemUtils.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Finalclass.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Game.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GOGNetwork.c">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Graphics.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsResources.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicsUtil.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KeyPoll.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Labclass.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Logic.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Music.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Network.c">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Otherlevel.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\preloader.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Render.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RenderFixed.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Screen.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Script.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scripts.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SoundSystem.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Spacestation2.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SteamNetwork.c">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TerminalScripts.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Textbox.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ThirdPartyDeps.c">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tower.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UtilityClass.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WarpClass.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XMLUtils.cpp">
+      <Filter>VVVVsrc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\BinaryBlob.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BlockV.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Credits.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DeferCallbacks.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ent.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Entity.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enums.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Exit.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FileSystemUtils.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Finalclass.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Game.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Graphics.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsResources.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicsUtil.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KeyPoll.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Labclass.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Logic.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MakeAndPlay.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Maths.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Music.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Network.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Otherlevel.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\preloader.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Render.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RenderFixed.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Screen.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ScreenSettings.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Script.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SoundSystem.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Spacestation2.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Textbox.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tower.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TowerBG.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UtilityClass.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Version.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WarpClass.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XMLUtils.h">
+      <Filter>VVVVsrc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Version.h.in">
+      <Filter>VVVVsrc</Filter>
+    </None>
+  </ItemGroup>
+</Project>
